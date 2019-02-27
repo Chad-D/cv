@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Information</h1>
+    <p>My Street Address</p>
+    <p>My phone number</p>
+    <p>My email address</p>
+
+    <form
+        action="mailto:chaddierking@gmail.com"
+        method="post"
+        enctype="text/plain">
+      <label for="email-alias">Your Name:</label>
+      <input type="text"
+          id="email-alias"
+          name="yourName"
+          value=""><br>
+
+      <label for="email-address">Your Email:</label>
+      <input type="email"
+          id="email-address"
+          name="yourEmail"
+          value=""><br>
+
+      <label for="email-body">Your Message:</label>
+      <textarea id="email-body"
+          name="yourMessage"
+          rows="10"
+          cols="30"></textarea><br>
+
+      <input type="submit"
+          value="Send Email">
+    </form>
+  </body>
+</html>
